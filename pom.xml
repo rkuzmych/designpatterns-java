@@ -1,0 +1,17 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.rkuzmych</groupId>
+    <artifactId>designpatterns</artifactId>
+    <version>1.0.0</version>
+
+    <modules>
+        <module>creational</module>
+        <module>structural</module>
+        <module>behavioral</module>
+    </modules>
+
+    <packaging>
+        pom
+    </packaging>
+</project>
