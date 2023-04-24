@@ -7,10 +7,10 @@ import java.util.LinkedList;
 
 public class Editor {
 
-    private Deque<TextArea.Memento> stateHistory;
+    private final Deque<TextArea.Memento> stateHistory;
 
     @Getter
-    private TextArea textArea;
+    private final TextArea textArea;
 
     public Editor() {
         this.stateHistory = new LinkedList<>();
