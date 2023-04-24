@@ -5,20 +5,20 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class EmployeeObjectAdapter implements Customer {
 
-    private Employee employee;
+    private Employee adaptee;
 
     @Override
     public String getName() {
-        return employee.getFullName();
+        return adaptee.getFullName();
     }
 
     @Override
     public String getDesignation() {
-        return employee.getJobTitle();
+        return adaptee.getJobTitle();
     }
 
     @Override
     public String getAddress() {
-        return employee.getOfficeLocation();
+        return adaptee.getOfficeLocation();
     }
 }
